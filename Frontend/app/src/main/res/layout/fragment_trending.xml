@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Trending"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/titletrend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trending Today"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/trending1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trending1"
+            app:layout_constraintTop_toBottomOf="@+id/titletrend"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/trending2"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/trending2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trending2"
+            app:layout_constraintTop_toBottomOf="@+id/trending1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/trending3"
+            android:layout_marginTop="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/trending3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trending2"
+            app:layout_constraintTop_toBottomOf="@+id/trending1"
+            app:layout_constraintStart_toEndOf="@+id/trending2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:id="@+id/trending4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trending3"
+            app:layout_constraintTop_toBottomOf="@+id/trending2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/trending5"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:id="@+id/trending5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trending4"
+            app:layout_constraintTop_toBottomOf="@+id/trending2"
+            app:layout_constraintStart_toEndOf="@+id/trending4"
+            app:layout_constraintEnd_toStartOf="@+id/trending6"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:id="@+id/trending6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trending3"
+            app:layout_constraintTop_toBottomOf="@+id/trending2"
+            app:layout_constraintStart_toEndOf="@+id/trending5"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

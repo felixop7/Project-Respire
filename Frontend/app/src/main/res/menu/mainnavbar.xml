@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/homebtn"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Trending"
+        android:id="@+id/searchbtn"
+        android:icon="@drawable/baseline_trending_up_24"/>
+    <item android:id="@+id/placeholder"
+        android:title=""/>
+    <item android:title="Devices"
+        android:id="@+id/friendbtn"
+        android:icon="@drawable/baseline_router_24"/>
+    <item android:title="Profile"
+        android:id="@+id/profilebtn"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>

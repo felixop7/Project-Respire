@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Respire</string>
+    <string name="com_auth0_domain">dev-qkrwgsjt0zdq2f15.us.auth0.com</string>
+    <string name="com_auth0_client_id">7ww5MBBRd1SxqbYxwRuHaQRSpiOrLUe2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
