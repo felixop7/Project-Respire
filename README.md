@@ -19,7 +19,7 @@
 ### Key Features
 
 - Real-time Air Quality Monitoring
-- Machine Learning Analysis
+- Machine Learning Analysis and Visualization using Streamlit
 - Blockchain-Based Reward System
 - Web and Android Applications
 - Location Mapping with OpenStreetMap
