@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Respire - Clean Air, Bright Futures
 
 ![Respire Logo](Respire.png) <!-- Replace with a link to your project's logo -->
@@ -32,8 +31,7 @@
 - **Backend**: Houses the backend server code implemented using Node.js and JavaScript.
 - **Godaddy Domain**: Relevant files and documentation related to your domain registration.
 - **Streamlit**: Frontend files and code related to the Streamlit framework for machine learning analysis.
-- **Circuit Design**: Design and documentation for IoT device circuits.
-- **Bill of Materials**: Contains a list of materials required for your IoT device.
+- **Circuit_Design_and_BOM**: Design and documentation for IoT device circuits also contains a list of materials required for your IoT device..
 
 ## Technologies Used
 
@@ -65,7 +63,3 @@ We welcome contributions from the community! If you'd like to contribute to "Res
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-=======
-# Project-Respire-
-Project Respire By Team Zero Matters.
->>>>>>> 4c8d2a81ccb9881f80c736b676caa56ddd1dfddc
