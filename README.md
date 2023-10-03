@@ -19,7 +19,7 @@
 ### Key Features
 
 - Real-time Air Quality Monitoring
-- Machine Learning Analysis
+- Machine Learning Analysis and Visualization using Streamlit
 - Blockchain-Based Reward System
 - Web and Android Applications
 - Location Mapping with OpenStreetMap
@@ -29,7 +29,7 @@
 
 - **Frontend**: Contains code and resources for the project's web and mobile app frontends.
 - **Backend**: Houses the backend server code implemented using Node.js and JavaScript.
-- **Godaddy Domain**: Relevant files and documentation related to your domain registration.
+- **Godaddy Domain**: Relevant files and landing page for our domain registration.
 - **Streamlit**: Frontend files and code related to the Streamlit framework for machine learning analysis.
 - **Circuit_Design_and_BOM**: Design and documentation for IoT device circuits also contains a list of materials required for your IoT device..
 
